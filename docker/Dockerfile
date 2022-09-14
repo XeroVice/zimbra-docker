@@ -1,9 +1,9 @@
 #################################################################
 # Dockerfile to build Zimbra Collaboration 8.8.7 container images
 # Based on Ubuntu 16.04
-# Created by Jorge de la Cruz
+# Created by Jorge de la Cruz, Hakuryuu (dev@hakuryuu.net)
 #################################################################
-FROM ubuntu:16.04
+FROM ubuntu:22.04
 MAINTAINER Jorge de la Cruz <jorgedlcruz@gmail.com>
 
 RUN echo "resolvconf resolvconf/linkify-resolvconf boolean false" | debconf-set-selections
